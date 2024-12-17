@@ -1,0 +1,3 @@
+Note: there is a problem with the third method (fmincon in Matlab, minimize in Python). 
+Some of the values that the minimize method chooses create a concumption value that is negative, 
+which created an error when the log is taken inside the fu (utility) function.
